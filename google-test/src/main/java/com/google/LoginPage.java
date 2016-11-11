@@ -8,8 +8,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.safari.SafariDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -18,7 +16,7 @@ public class LoginPage {
     public static void main(String[] args) {
      // objects and variables instantiation
 
-        System.setProperty("webdriver.gecko.driver","C:\\Users\\Administrator\\google-test\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver","C:\\Users\\Administrator\\docker git\\selenium\\google-test\\geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
 
         String appUrl = "https://accounts.google.com";
